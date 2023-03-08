@@ -9,23 +9,42 @@ from re import X
 
 
 sw= 1
+
 sw1=1
+
 sw2=1
+
 rut=[]#rut de cliente registrado
+
 nombre=[]#nombre de cliente registrado
+
 direccion=[]#direccion de cliente registrado
+
 comuna=[]#comuna de cliente registrado
+
 correo=[]#correo de cliente registrado
+
 edad=[]#edad de cliente registrado
+
 celular=[]#celular de cliente registrado
+
 tipo=[]#tipo de cliente registrado
+
 pedidos=[]#tipo de pedido de la gente
+
 nombrepedidos=[]#nombre de cada pedido
+
 subtotal=0#subtotal de pedido
+
 preciocalifornia=0#precio del total de california
+
 preciocrab=0 #precio total de crab humano
+
 preciotempura=0#precio total de tempura tuna nikkei
+
+
 while sw==1:
+
     print("entrando al menú")
     menuprincipal=int(input("------ Bienvenido a Sushi-Nikkey ------ \n que opción desea escoger. \n 1. ----> Registro de cliente. \n 2. ----> consultar datos de cliente. \n 3. ----> registro de pedido. \n 4. ----> salir. \n "))
     if menuprincipal>0 and menuprincipal<5:
